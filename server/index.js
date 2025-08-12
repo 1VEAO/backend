@@ -10,17 +10,20 @@ import 'dotenv/config';
 
 dotenv.config();
 
+// 🔐 Verifica que la URL de Mongo esté definida
 const mongoUrl = process.env.DB_DIRECT;
-const client = new MongoClient(mongoUrl, {
- tls: true,
-});
+if (!mongoUrl || !mongoUrl.startsWith("mongodb")) {
+ throw new Error("❌ DB_DIRECT no está definida o es inválida");
+}
+
+const client = new MongoClient(mongoUrl, { tls: true });
 
 const run = async () => {
  try {
   await client.connect();
-  console.log('Conectado a la base de datos MongoDB');
+  console.log('✅ Conectado a la base de datos MongoDB');
  } catch (err) {
-  console.error('Error conectando a la base de datos:', err);
+  console.error('❌ Error conectando a la base de datos:', err);
  }
 };
 
@@ -76,7 +79,7 @@ app.put('/usuario', async (req, res) => {
   });
   res.status(200).json({ message: 'Usuario agregado', result });
  } catch (err) {
-  console.error('Error agregando usuario:', err);
+  console.error('❌ Error agregando usuario:', err);
   res.status(500).json({ error: 'Error agregando usuario' });
  }
 });
@@ -88,24 +91,26 @@ app.get('/', (req, res) => {
   const lenguajes = JSON.parse(fs.readFileSync(lenguajesPath, 'utf8'));
   res.json(lenguajes);
  } catch (err) {
-  console.error('Error leyendo lenguajes.json:', err);
+  console.error('❌ Error leyendo lenguajes.json:', err);
   res.status(500).json({ error: 'No se pudo leer lenguajes.json' });
  }
 });
 
-// ✅ Rutas CSV
+// ✅ Rutas CSV con normalización
 routes.forEach(route => {
- app.get(route.path, async (req, res) => {
+ const basePath = route.path.replace(/\/$/, ""); // elimina barra final si existe
+
+ app.get(basePath, async (req, res) => {
   try {
    const data = await readCSV(route.file, route.separator);
    res.json(data);
   } catch (err) {
-   console.error(`Error leyendo CSV (${route.file}):`, err);
+   console.error(`❌ Error leyendo CSV (${route.file}):`, err);
    res.status(500).send('Error leyendo el archivo CSV');
   }
  });
 
- app.get(`${route.path}/lenguaje/:lenguaje`, async (req, res) => {
+ app.get(`${basePath}/lenguaje/:lenguaje`, async (req, res) => {
   try {
    const lenguaje = req.params.lenguaje.toLowerCase();
    const data = await readCSV(route.file, route.separator);
@@ -114,12 +119,12 @@ routes.forEach(route => {
    );
    res.json(filtrados);
   } catch (err) {
-   console.error(`Error leyendo CSV (${route.file}):`, err);
+   console.error(`❌ Error filtrando por lenguaje (${route.file}):`, err);
    res.status(500).send('Error leyendo el archivo CSV');
   }
  });
 
- app.get(`${route.path}/institucion/:institucion`, async (req, res) => {
+ app.get(`${basePath}/institucion/:institucion`, async (req, res) => {
   try {
    const institucion = req.params.institucion.toLowerCase();
    const data = await readCSV(route.file, route.separator);
@@ -128,12 +133,12 @@ routes.forEach(route => {
    );
    res.json(filtrados);
   } catch (err) {
-   console.error(`Error leyendo CSV (${route.file}):`, err);
+   console.error(`❌ Error filtrando por institución (${route.file}):`, err);
    res.status(500).send('Error leyendo el archivo CSV');
   }
  });
 
- app.get(`${route.path}/salary/:minSalary`, async (req, res) => {
+ app.get(`${basePath}/salary/:minSalary`, async (req, res) => {
   try {
    const minSalary = Number(req.params.minSalary);
    if (isNaN(minSalary)) {
@@ -146,12 +151,12 @@ routes.forEach(route => {
    });
    res.json(filtrados);
   } catch (err) {
-   console.error(`Error leyendo CSV (${route.file}):`, err);
+   console.error(`❌ Error filtrando por salario (${route.file}):`, err);
    res.status(500).send('Error leyendo el archivo CSV');
   }
  });
 
- app.get(`${route.path}/experiencia/:nivel`, async (req, res) => {
+ app.get(`${basePath}/experiencia/:nivel`, async (req, res) => {
   try {
    const nivel = req.params.nivel.toLowerCase();
    const data = await readCSV(route.file, route.separator);
@@ -160,12 +165,19 @@ routes.forEach(route => {
    );
    res.json(filtrados);
   } catch (err) {
-   console.error(`Error leyendo CSV (${route.file}):`, err);
+   console.error(`❌ Error filtrando por experiencia (${route.file}):`, err);
    res.status(500).send('Error leyendo el archivo CSV');
   }
  });
 });
 
-app.listen(process.env.PORT, () => {
- console.log(`Servidor escuchando en puerto ${process.env.PORT}`);
+// ✅ Ruta de prueba opcional
+app.get('/ping', (req, res) => {
+ res.send('pong');
+});
+
+// ✅ Escucha en puerto dinámico para Render
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+ console.log(`🚀 Servidor escuchando en puerto ${PORT}`);
 });
