@@ -9,6 +9,9 @@ import fs from 'fs';
 import { MongoClient } from 'mongodb'
 import 'dotenv/config';
 
+const app = express();
+app.use(express.json());
+
 // cors('http://localhost:5173/', 'https://lucent-piroshki-c15011.netlify.app/');
 
 const mongoUrl = process.env.DB_DIRECT;
@@ -32,8 +35,6 @@ dotenv.config();
 
 const PORT = process.env.PORT || 3000;
 
-const app = express();
-app.use(express.json());
 app.use(cors({
  origin: [
   "http://localhost:5173",
