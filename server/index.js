@@ -9,7 +9,7 @@ import fs from 'fs';
 import { MongoClient } from 'mongodb'
 import 'dotenv/config';
 
-cors('http://localhost:5173/', 'https://lucent-piroshki-c15011.netlify.app/');
+// cors('http://localhost:5173/', 'https://lucent-piroshki-c15011.netlify.app/');
 
 const mongoUrl = process.env.DB_DIRECT;
 const client = new MongoClient(mongoUrl, {
@@ -33,7 +33,7 @@ dotenv.config();
 
 
 const app = express();
-app.use(cors('http://localhost:5173'), express.json());
+app.use(cors('http://localhost:5173', 'https://lucent-piroshki-c15011.netlify.app'), express.json());
 
 
 const routes = [
