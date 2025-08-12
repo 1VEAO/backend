@@ -1,0 +1,301 @@
+Profile,Country,Age,Preferred_Language,Education_Level,Learning_Method,Reason_for_Choice
+Student,USA,50,PHP,Bootcamp,Online Course,Community support
+Student,USA,48,C#,Self-taught,Bootcamp,Ease of learning
+Student,USA,50,C#,Technical,Bootcamp,Project interest
+Student,Spain,19,PHP,University,School,Community support
+Student,USA,23,Ruby,University,School,Job opportunities
+Professional,Germany,31,Java,University,Bootcamp,Community support
+Student,Spain,40,Java,High School,Bootcamp,Ease of learning
+Professional,India,22,Python,Bootcamp,Self-study,Job opportunities
+Student,USA,43,Python,Bootcamp,Online Course,Project interest
+Student,Germany,49,C/C++,Self-taught,School,Project interest
+Professional,Brazil,47,C/C++,Bootcamp,Self-study,Project interest
+Student,Canada,48,Python,Bootcamp,Self-study,Ease of learning
+Student,Spain,29,Ruby,Bootcamp,University,Ease of learning
+Professional,USA,42,TypeScript,High School,Bootcamp,Community support
+Student,Brazil,25,TypeScript,University,Bootcamp,Community support
+Professional,Germany,47,JavaScript,Technical,Online Course,Project interest
+Student,Germany,34,Java,Technical,Self-study,Job opportunities
+Student,Brazil,38,TypeScript,High School,Self-study,Project interest
+Professional,Brazil,44,PHP,Bootcamp,Self-study,Ease of learning
+Student,Brazil,45,Ruby,Bootcamp,Online Course,Community support
+Student,Brazil,42,C/C++,Technical,Self-study,Community support
+Student,Spain,44,C#,High School,Online Course,Job opportunities
+Professional,Brazil,23,TypeScript,Technical,School,Job opportunities
+Student,India,48,JavaScript,High School,School,Ease of learning
+Student,Germany,29,Java,Self-taught,Self-study,Job opportunities
+Professional,India,18,Ruby,High School,Bootcamp,Project interest
+Student,India,17,PHP,Bootcamp,Bootcamp,Job opportunities
+Student,USA,50,Python,University,Online Course,Ease of learning
+Professional,USA,25,C#,Bootcamp,Online Course,Job opportunities
+Professional,Canada,17,JavaScript,University,Self-study,Job opportunities
+Professional,Canada,42,PHP,University,Self-study,Job opportunities
+Student,Canada,31,Java,Bootcamp,School,Project interest
+Student,Germany,19,PHP,Bootcamp,School,Project interest
+Student,India,17,C/C++,Technical,University,Community support
+Student,Canada,24,C#,Self-taught,Self-study,Project interest
+Student,Spain,48,Java,Technical,Bootcamp,Ease of learning
+Student,Brazil,43,Ruby,High School,University,Project interest
+Professional,Spain,26,JavaScript,High School,Self-study,Community support
+Professional,Spain,40,PHP,Technical,School,Community support
+Student,Canada,50,TypeScript,University,University,Project interest
+Student,Canada,33,C/C++,Technical,School,Community support
+Professional,Spain,32,Ruby,University,Online Course,Community support
+Professional,Canada,45,PHP,High School,Online Course,Job opportunities
+Professional,USA,16,Python,Bootcamp,School,Project interest
+Professional,Brazil,21,TypeScript,Self-taught,University,Project interest
+Student,Germany,40,PHP,Bootcamp,Online Course,Job opportunities
+Student,India,39,Java,Bootcamp,University,Ease of learning
+Student,Germany,38,Java,High School,School,Community support
+Student,Canada,47,PHP,High School,Bootcamp,Project interest
+Student,USA,28,C/C++,High School,Bootcamp,Project interest
+Student,Brazil,28,Python,High School,School,Ease of learning
+Student,Canada,32,Java,Self-taught,Bootcamp,Ease of learning
+Student,Spain,50,C#,Self-taught,Self-study,Job opportunities
+Professional,Spain,19,PHP,Bootcamp,Self-study,Community support
+Student,Spain,49,Ruby,Bootcamp,Bootcamp,Job opportunities
+Student,USA,33,C/C++,Self-taught,Self-study,Community support
+Student,India,28,PHP,High School,School,Job opportunities
+Student,Spain,43,TypeScript,Technical,Online Course,Ease of learning
+Professional,Germany,20,TypeScript,High School,Self-study,Project interest
+Student,Brazil,37,C#,Technical,University,Project interest
+Student,Germany,19,PHP,Self-taught,Online Course,Job opportunities
+Professional,USA,44,TypeScript,High School,University,Job opportunities
+Professional,Germany,20,Python,High School,Self-study,Job opportunities
+Professional,Brazil,43,TypeScript,High School,University,Job opportunities
+Professional,India,41,TypeScript,Self-taught,Self-study,Ease of learning
+Student,India,40,Ruby,Bootcamp,School,Job opportunities
+Professional,Spain,17,Ruby,Self-taught,Bootcamp,Ease of learning
+Student,USA,16,TypeScript,Self-taught,Online Course,Ease of learning
+Professional,Germany,42,Ruby,Self-taught,Self-study,Ease of learning
+Student,Canada,18,JavaScript,Technical,Bootcamp,Project interest
+Professional,Germany,50,Python,Technical,Self-study,Community support
+Professional,Germany,39,JavaScript,Self-taught,School,Ease of learning
+Student,Canada,48,JavaScript,Bootcamp,Bootcamp,Ease of learning
+Student,Spain,28,TypeScript,University,Online Course,Project interest
+Professional,Brazil,37,PHP,Self-taught,Bootcamp,Project interest
+Professional,Canada,22,Ruby,High School,Self-study,Ease of learning
+Student,Spain,30,Java,Bootcamp,School,Ease of learning
+Student,India,37,C/C++,Technical,Self-study,Ease of learning
+Student,Germany,16,TypeScript,University,University,Job opportunities
+Student,Germany,44,Java,Self-taught,Bootcamp,Job opportunities
+Student,Canada,28,C#,Technical,Online Course,Community support
+Student,Germany,31,Python,Technical,University,Ease of learning
+Professional,USA,17,Python,Bootcamp,University,Community support
+Student,Germany,45,Java,University,Bootcamp,Ease of learning
+Professional,Spain,20,TypeScript,Technical,Online Course,Ease of learning
+Student,Brazil,40,PHP,University,School,Project interest
+Student,USA,28,C#,Technical,Bootcamp,Ease of learning
+Student,Spain,33,Python,Self-taught,School,Project interest
+Student,Spain,21,Ruby,Self-taught,University,Ease of learning
+Professional,Spain,48,PHP,Bootcamp,School,Project interest
+Student,Germany,39,Ruby,Bootcamp,Self-study,Community support
+Professional,Spain,18,Java,Technical,Online Course,Project interest
+Student,India,29,C#,Bootcamp,Self-study,Ease of learning
+Professional,Germany,21,Python,High School,Bootcamp,Project interest
+Professional,Canada,18,Ruby,Self-taught,School,Community support
+Professional,India,45,C/C++,Bootcamp,Bootcamp,Project interest
+Professional,Germany,40,JavaScript,Technical,Self-study,Ease of learning
+Professional,Spain,20,PHP,High School,Bootcamp,Job opportunities
+Professional,Canada,22,TypeScript,High School,Bootcamp,Job opportunities
+Student,Germany,28,PHP,University,Bootcamp,Community support
+Student,Spain,24,C#,High School,Bootcamp,Community support
+Professional,India,41,JavaScript,Bootcamp,School,Ease of learning
+Professional,Canada,30,Java,Bootcamp,Online Course,Project interest
+Professional,Germany,21,PHP,Technical,Self-study,Project interest
+Student,India,44,JavaScript,University,Online Course,Ease of learning
+Professional,Spain,16,Ruby,University,Bootcamp,Ease of learning
+Professional,India,41,C#,University,School,Job opportunities
+Student,Canada,25,PHP,Self-taught,School,Project interest
+Professional,Canada,41,TypeScript,Self-taught,Self-study,Ease of learning
+Professional,USA,37,Ruby,University,University,Ease of learning
+Student,Spain,27,JavaScript,Self-taught,Self-study,Job opportunities
+Student,Canada,20,C/C++,University,Online Course,Ease of learning
+Professional,Spain,49,TypeScript,Bootcamp,University,Community support
+Student,Canada,36,C/C++,Bootcamp,Online Course,Job opportunities
+Student,Brazil,42,Ruby,High School,Self-study,Ease of learning
+Student,Canada,35,C/C++,Bootcamp,Online Course,Community support
+Student,Brazil,45,C#,Technical,University,Ease of learning
+Professional,USA,41,Java,Self-taught,Bootcamp,Project interest
+Professional,India,18,TypeScript,University,Self-study,Community support
+Professional,India,27,C/C++,Technical,Online Course,Project interest
+Professional,India,27,TypeScript,Bootcamp,University,Ease of learning
+Student,Germany,50,C#,High School,Online Course,Project interest
+Professional,Brazil,23,PHP,High School,University,Community support
+Professional,India,26,C#,Technical,School,Job opportunities
+Professional,USA,20,Ruby,Bootcamp,Bootcamp,Project interest
+Student,India,18,JavaScript,University,University,Ease of learning
+Professional,Spain,45,Ruby,Bootcamp,University,Job opportunities
+Student,Spain,44,Python,Bootcamp,Bootcamp,Ease of learning
+Student,USA,22,Python,University,University,Project interest
+Student,USA,16,C#,Technical,Self-study,Community support
+Student,Canada,18,Java,Bootcamp,University,Job opportunities
+Professional,Spain,35,Ruby,High School,School,Job opportunities
+Student,India,28,Java,University,Online Course,Ease of learning
+Student,USA,42,JavaScript,High School,Bootcamp,Ease of learning
+Student,Canada,22,Python,Technical,University,Project interest
+Student,Germany,36,Java,Self-taught,Online Course,Project interest
+Professional,USA,30,Java,High School,Bootcamp,Community support
+Student,USA,41,PHP,High School,Self-study,Ease of learning
+Professional,Canada,20,C#,Self-taught,Bootcamp,Job opportunities
+Student,Canada,42,C#,Self-taught,Self-study,Job opportunities
+Student,Germany,22,PHP,Bootcamp,Online Course,Community support
+Student,Spain,36,Ruby,High School,Bootcamp,Job opportunities
+Professional,India,48,Java,Self-taught,School,Job opportunities
+Student,USA,23,C#,Technical,Self-study,Ease of learning
+Student,USA,24,PHP,Bootcamp,Bootcamp,Ease of learning
+Student,India,29,JavaScript,Technical,School,Project interest
+Professional,Canada,33,PHP,High School,School,Project interest
+Professional,USA,30,PHP,University,Online Course,Ease of learning
+Student,Spain,31,Java,Self-taught,Self-study,Community support
+Student,India,16,TypeScript,Bootcamp,University,Ease of learning
+Student,Spain,25,Java,Technical,University,Ease of learning
+Student,Canada,48,TypeScript,Bootcamp,Self-study,Community support
+Student,Spain,28,Java,Bootcamp,Online Course,Ease of learning
+Professional,Germany,44,Java,University,Self-study,Job opportunities
+Professional,India,40,Python,Bootcamp,Self-study,Project interest
+Professional,Canada,46,JavaScript,Bootcamp,Self-study,Job opportunities
+Professional,Brazil,50,Python,Self-taught,Online Course,Community support
+Professional,India,35,Ruby,University,Self-study,Project interest
+Student,Germany,24,Ruby,Technical,Online Course,Ease of learning
+Student,USA,48,PHP,Bootcamp,Self-study,Project interest
+Professional,Spain,39,C/C++,Bootcamp,Bootcamp,Job opportunities
+Professional,USA,23,C/C++,Self-taught,Online Course,Ease of learning
+Professional,Germany,38,Ruby,University,University,Project interest
+Professional,Spain,31,Java,Bootcamp,University,Community support
+Student,Spain,25,C#,Self-taught,Self-study,Ease of learning
+Professional,Canada,26,JavaScript,High School,University,Project interest
+Professional,Spain,21,Java,Bootcamp,Online Course,Project interest
+Professional,Spain,35,C/C++,Self-taught,Bootcamp,Project interest
+Student,USA,38,Python,University,Online Course,Project interest
+Professional,USA,26,Ruby,High School,University,Job opportunities
+Professional,Brazil,42,C#,Bootcamp,Online Course,Ease of learning
+Professional,Canada,24,Java,Bootcamp,Online Course,Job opportunities
+Professional,Brazil,29,Python,Technical,University,Ease of learning
+Student,Germany,42,Ruby,Self-taught,University,Ease of learning
+Student,Germany,21,C/C++,High School,Bootcamp,Job opportunities
+Professional,USA,31,Ruby,Bootcamp,University,Job opportunities
+Student,Germany,16,JavaScript,High School,Online Course,Job opportunities
+Professional,Brazil,49,C#,Bootcamp,Self-study,Community support
+Professional,Germany,39,PHP,University,Online Course,Community support
+Professional,India,19,PHP,University,University,Job opportunities
+Professional,Spain,41,Python,High School,School,Job opportunities
+Professional,Spain,31,PHP,Bootcamp,School,Project interest
+Professional,Spain,28,JavaScript,University,University,Community support
+Student,Spain,36,Ruby,Technical,School,Project interest
+Professional,Spain,21,PHP,Bootcamp,Self-study,Job opportunities
+Professional,Germany,28,Python,Self-taught,School,Job opportunities
+Student,India,21,C#,Self-taught,Self-study,Ease of learning
+Professional,USA,46,Java,Technical,Online Course,Ease of learning
+Student,USA,43,JavaScript,Technical,Bootcamp,Project interest
+Professional,Canada,32,Ruby,High School,Online Course,Project interest
+Student,Spain,37,Java,Self-taught,School,Job opportunities
+Professional,India,40,C/C++,Technical,Online Course,Community support
+Student,Germany,21,TypeScript,High School,Bootcamp,Ease of learning
+Student,Brazil,39,Python,University,Self-study,Job opportunities
+Professional,USA,50,Java,Bootcamp,Self-study,Community support
+Professional,Spain,24,Java,High School,Self-study,Job opportunities
+Professional,Germany,25,C#,Technical,Self-study,Project interest
+Student,Brazil,34,Python,High School,School,Community support
+Professional,Brazil,23,C#,Self-taught,Self-study,Ease of learning
+Professional,Germany,40,JavaScript,University,Online Course,Ease of learning
+Student,Spain,19,Python,Bootcamp,Self-study,Community support
+Student,USA,41,PHP,Bootcamp,Self-study,Community support
+Professional,India,20,C#,University,Online Course,Project interest
+Student,Canada,36,JavaScript,University,Self-study,Ease of learning
+Student,India,46,C#,Technical,Online Course,Ease of learning
+Student,Spain,16,PHP,Self-taught,University,Ease of learning
+Professional,India,26,JavaScript,High School,Bootcamp,Project interest
+Student,USA,23,PHP,Self-taught,Self-study,Ease of learning
+Professional,Canada,18,TypeScript,Technical,Self-study,Project interest
+Professional,Spain,27,C/C++,High School,Self-study,Project interest
+Professional,Spain,44,PHP,High School,University,Job opportunities
+Student,USA,47,Java,High School,School,Project interest
+Professional,Spain,22,Python,Bootcamp,Self-study,Project interest
+Professional,Brazil,24,TypeScript,University,University,Ease of learning
+Professional,Spain,17,C/C++,Self-taught,School,Project interest
+Student,Brazil,50,TypeScript,Technical,University,Ease of learning
+Student,USA,44,PHP,High School,University,Ease of learning
+Student,Spain,26,TypeScript,Self-taught,Bootcamp,Job opportunities
+Student,USA,48,C#,University,School,Ease of learning
+Professional,Spain,16,Java,University,University,Community support
+Professional,Canada,47,PHP,Self-taught,Bootcamp,Ease of learning
+Student,Spain,18,Java,High School,Online Course,Ease of learning
+Professional,Canada,24,Java,Self-taught,Bootcamp,Community support
+Student,Spain,43,TypeScript,Self-taught,Bootcamp,Community support
+Professional,Spain,26,C/C++,Bootcamp,University,Community support
+Professional,Spain,25,Java,High School,Bootcamp,Ease of learning
+Professional,Brazil,48,Python,Bootcamp,Online Course,Community support
+Professional,India,17,Java,High School,Bootcamp,Job opportunities
+Student,Spain,42,TypeScript,University,University,Community support
+Professional,Germany,25,Java,University,University,Job opportunities
+Professional,Canada,40,TypeScript,High School,Online Course,Community support
+Professional,USA,49,PHP,Self-taught,Bootcamp,Community support
+Student,USA,26,PHP,Bootcamp,Online Course,Community support
+Professional,India,24,C#,High School,School,Ease of learning
+Student,Canada,40,C#,High School,Bootcamp,Ease of learning
+Professional,Spain,45,Python,Bootcamp,Bootcamp,Project interest
+Professional,Germany,43,Java,University,University,Community support
+Professional,Germany,21,TypeScript,High School,Online Course,Job opportunities
+Student,Brazil,19,TypeScript,University,School,Project interest
+Student,India,48,Python,Bootcamp,Self-study,Job opportunities
+Professional,USA,28,JavaScript,Bootcamp,School,Community support
+Student,Spain,49,JavaScript,Self-taught,Self-study,Ease of learning
+Student,Canada,20,PHP,Technical,School,Community support
+Student,India,47,C/C++,Technical,Bootcamp,Job opportunities
+Professional,Spain,31,TypeScript,University,Bootcamp,Project interest
+Professional,Germany,29,JavaScript,Self-taught,Self-study,Ease of learning
+Professional,Spain,48,JavaScript,Bootcamp,School,Project interest
+Student,Germany,16,Ruby,University,Bootcamp,Community support
+Student,USA,38,Python,Bootcamp,Bootcamp,Job opportunities
+Student,India,47,Java,High School,School,Ease of learning
+Professional,USA,47,JavaScript,Technical,Bootcamp,Ease of learning
+Professional,India,39,C#,University,Self-study,Ease of learning
+Professional,USA,44,Ruby,Technical,Online Course,Community support
+Professional,USA,38,Java,High School,Online Course,Community support
+Student,Canada,41,C/C++,University,University,Ease of learning
+Student,India,33,TypeScript,Bootcamp,Self-study,Project interest
+Student,Germany,41,C/C++,Technical,University,Job opportunities
+Student,Canada,25,PHP,Self-taught,University,Ease of learning
+Student,Spain,37,C/C++,Self-taught,University,Project interest
+Professional,Germany,34,Ruby,High School,Self-study,Ease of learning
+Student,Spain,48,Python,Technical,Bootcamp,Job opportunities
+Professional,Spain,31,C/C++,Technical,Self-study,Job opportunities
+Student,Canada,25,Java,High School,Online Course,Project interest
+Student,Germany,28,Python,Bootcamp,University,Ease of learning
+Student,USA,40,C/C++,Self-taught,Bootcamp,Ease of learning
+Student,Germany,43,Ruby,High School,School,Project interest
+Student,Germany,23,C#,University,Bootcamp,Community support
+Professional,Canada,36,JavaScript,Technical,University,Job opportunities
+Student,Spain,36,Java,University,Self-study,Community support
+Student,India,27,C#,Bootcamp,Bootcamp,Community support
+Professional,USA,22,JavaScript,Self-taught,Online Course,Community support
+Professional,Spain,39,PHP,Technical,Bootcamp,Ease of learning
+Professional,USA,22,Python,Self-taught,University,Job opportunities
+Student,Canada,44,TypeScript,High School,School,Community support
+Professional,Spain,46,Java,Self-taught,Online Course,Job opportunities
+Student,Canada,42,C#,Self-taught,Bootcamp,Community support
+Professional,Spain,23,C/C++,High School,Self-study,Project interest
+Student,Canada,33,Python,University,University,Job opportunities
+Student,Spain,41,Ruby,Self-taught,School,Job opportunities
+Student,India,48,C/C++,Self-taught,Self-study,Project interest
+Professional,Canada,27,JavaScript,Technical,School,Ease of learning
+Student,Brazil,45,C#,University,Online Course,Community support
+Professional,Brazil,23,Python,Technical,University,Ease of learning
+Professional,USA,25,C#,Technical,Bootcamp,Job opportunities
+Student,Canada,50,TypeScript,High School,Bootcamp,Community support
+Professional,USA,32,Python,Bootcamp,School,Community support
+Professional,USA,16,PHP,Technical,Bootcamp,Ease of learning
+Professional,USA,50,TypeScript,Bootcamp,Bootcamp,Ease of learning
+Professional,Canada,36,C#,Technical,School,Project interest
+Student,India,30,C/C++,University,Online Course,Project interest
+Student,India,27,Ruby,Technical,Online Course,Ease of learning
+Professional,Spain,27,C#,High School,Bootcamp,Ease of learning
+Student,India,28,TypeScript,Technical,University,Project interest
+Student,India,41,TypeScript,Self-taught,Online Course,Job opportunities
+Student,India,40,JavaScript,High School,University,Job opportunities
+Student,Canada,21,C#,Technical,School,Job opportunities
+Student,USA,50,PHP,High School,Online Course,Ease of learning
+Professional,Brazil,44,Python,University,Bootcamp,Project interest
+Student,Canada,19,C#,Self-taught,University,Job opportunities
+Student,USA,50,C#,High School,School,Project interest

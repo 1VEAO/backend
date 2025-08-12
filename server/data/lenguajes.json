@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "C#",
+    "creador": "Microsoft",
+    "anio_creacion": 2000,
+    "paradigmas": ["Orientado a objetos", "Imperativo", "Funcional"],
+    "descripcion": "Lenguaje desarrollado por Microsoft como parte de la plataforma .NET, ampliamente usado para aplicaciones de escritorio, web y videojuegos con Unity."
+  },
+  {
+    "nombre": "C/C++",
+    "creador": "Dennis Ritchie (C), Bjarne Stroustrup (C++)",
+    "anio_creacion": { "C": 1972, "C++": 1985 },
+    "paradigmas": ["Procedimental", "Orientado a objetos", "Genérico"],
+    "descripcion": "C es un lenguaje de programación de propósito general, rápido y eficiente, base de muchos sistemas operativos. C++ extiende C con programación orientada a objetos y características adicionales."
+  },
+  {
+    "nombre": "Java",
+    "creador": "James Gosling (Sun Microsystems)",
+    "anio_creacion": 1995,
+    "paradigmas": ["Orientado a objetos", "Imperativo", "Concurrente"],
+    "descripcion": "Lenguaje multiplataforma con el lema 'Write once, run anywhere'. Popular en aplicaciones empresariales, móviles (Android) y backend."
+  },
+  {
+    "nombre": "JavaScript",
+    "creador": "Brendan Eich (Netscape)",
+    "anio_creacion": 1995,
+    "paradigmas": ["Orientado a objetos basado en prototipos", "Funcional", "Imperativo"],
+    "descripcion": "Lenguaje principal para el desarrollo web del lado del cliente, aunque también se usa en el lado del servidor con Node.js."
+  },
+  {
+    "nombre": "PHP",
+    "creador": "Rasmus Lerdorf",
+    "anio_creacion": 1995,
+    "paradigmas": ["Imperativo", "Orientado a objetos", "Funcional"],
+    "descripcion": "Lenguaje ampliamente utilizado en el desarrollo web del lado del servidor, conocido por su facilidad para integrar con bases de datos y HTML."
+  },
+  {
+    "nombre": "Python",
+    "creador": "Guido van Rossum",
+    "anio_creacion": 1991,
+    "paradigmas": ["Orientado a objetos", "Procedimental", "Funcional"],
+    "descripcion": "Lenguaje interpretado y de alto nivel, muy popular por su sintaxis clara y su uso en ciencia de datos, inteligencia artificial, desarrollo web y automatización."
+  },
+  {
+    "nombre": "Ruby",
+    "creador": "Yukihiro Matsumoto",
+    "anio_creacion": 1995,
+    "paradigmas": ["Orientado a objetos", "Funcional", "Reflexivo"],
+    "descripcion": "Lenguaje enfocado en la simplicidad y productividad, popular en desarrollo web gracias al framework Ruby on Rails."
+  },
+  {
+    "nombre": "TypeScript",
+    "creador": "Microsoft",
+    "anio_creacion": 2012,
+    "paradigmas": ["Orientado a objetos", "Funcional", "Imperativo"],
+    "descripcion": "Superset tipado de JavaScript que añade tipos estáticos y mejora la escalabilidad de proyectos grandes."
+  }
+]

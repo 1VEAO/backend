@@ -1,0 +1,301 @@
+Profile,Age,Preferred_Language,Education_Level,Learning_Method,Reason_for_Choice
+Student,29,Ruby,Technical,Self-study,Community support
+Professional,28,C/C++,High School,Bootcamp,Project interest
+Professional,37,C#,University,Online Course,Project interest
+Student,18,TypeScript,High School,Self-study,Job opportunities
+Professional,41,Python,Self-taught,University,Community support
+Student,29,PHP,Bootcamp,University,Community support
+Professional,27,TypeScript,Self-taught,School,Ease of learning
+Student,37,Ruby,Technical,University,Community support
+Professional,19,C#,Self-taught,Online Course,Project interest
+Student,35,C#,High School,Online Course,Community support
+Professional,45,PHP,University,University,Ease of learning
+Student,34,C/C++,High School,Online Course,Job opportunities
+Student,39,Java,Bootcamp,Self-study,Project interest
+Professional,21,PHP,University,Bootcamp,Job opportunities
+Student,20,Python,Self-taught,University,Job opportunities
+Professional,30,C/C++,Bootcamp,School,Project interest
+Professional,24,Java,Self-taught,University,Community support
+Professional,19,C#,Self-taught,Self-study,Community support
+Student,23,C/C++,Self-taught,University,Job opportunities
+Student,25,Java,Technical,Bootcamp,Community support
+Professional,19,JavaScript,Bootcamp,Self-study,Ease of learning
+Student,28,Java,Self-taught,School,Community support
+Student,28,JavaScript,Bootcamp,University,Project interest
+Student,43,PHP,Self-taught,Self-study,Project interest
+Professional,25,TypeScript,Bootcamp,University,Community support
+Student,41,Ruby,University,University,Project interest
+Student,23,C/C++,Self-taught,Self-study,Job opportunities
+Professional,43,C#,University,Online Course,Community support
+Student,18,TypeScript,Self-taught,School,Ease of learning
+Professional,27,Python,Technical,University,Ease of learning
+Professional,22,Python,Self-taught,Online Course,Job opportunities
+Student,40,Ruby,Bootcamp,School,Project interest
+Professional,43,PHP,Technical,Self-study,Job opportunities
+Professional,30,C#,University,School,Job opportunities
+Professional,32,TypeScript,University,Self-study,Project interest
+Student,17,PHP,University,University,Job opportunities
+Professional,30,JavaScript,Bootcamp,School,Ease of learning
+Professional,35,Ruby,Self-taught,Online Course,Job opportunities
+Professional,19,PHP,High School,School,Ease of learning
+Student,23,Ruby,Bootcamp,School,Ease of learning
+Professional,27,C#,Bootcamp,Self-study,Community support
+Student,41,PHP,High School,Bootcamp,Job opportunities
+Professional,25,C#,Self-taught,Online Course,Community support
+Student,34,Python,University,Bootcamp,Project interest
+Student,35,TypeScript,University,School,Project interest
+Professional,42,Python,Self-taught,University,Project interest
+Professional,16,PHP,University,Online Course,Ease of learning
+Professional,40,Ruby,Technical,Online Course,Ease of learning
+Student,18,C#,High School,School,Job opportunities
+Professional,44,Python,Self-taught,Self-study,Ease of learning
+Student,21,Python,Bootcamp,University,Project interest
+Professional,37,Java,Bootcamp,School,Community support
+Professional,23,Java,University,Self-study,Ease of learning
+Professional,37,Ruby,Bootcamp,Bootcamp,Project interest
+Professional,21,Java,Self-taught,Online Course,Community support
+Student,36,Ruby,University,School,Job opportunities
+Student,25,TypeScript,Technical,Bootcamp,Project interest
+Student,42,C/C++,High School,Online Course,Project interest
+Professional,45,JavaScript,Bootcamp,University,Project interest
+Professional,23,C/C++,High School,Bootcamp,Ease of learning
+Student,26,TypeScript,University,Online Course,Ease of learning
+Student,25,Ruby,Technical,Self-study,Project interest
+Student,44,TypeScript,High School,Bootcamp,Ease of learning
+Student,33,C/C++,High School,Bootcamp,Ease of learning
+Professional,19,JavaScript,Technical,Self-study,Project interest
+Student,19,Ruby,Self-taught,School,Job opportunities
+Student,38,Python,University,Self-study,Job opportunities
+Professional,23,C/C++,Technical,University,Community support
+Student,32,JavaScript,Bootcamp,Self-study,Job opportunities
+Professional,27,C#,High School,Bootcamp,Job opportunities
+Professional,23,TypeScript,Self-taught,Bootcamp,Ease of learning
+Student,27,PHP,Technical,Self-study,Project interest
+Student,41,Python,High School,Self-study,Job opportunities
+Professional,22,JavaScript,Technical,University,Community support
+Professional,32,C/C++,Self-taught,Self-study,Community support
+Student,40,Java,University,Bootcamp,Job opportunities
+Professional,24,TypeScript,University,Self-study,Project interest
+Professional,44,C/C++,University,Online Course,Project interest
+Professional,27,C#,High School,Self-study,Job opportunities
+Professional,35,Python,Self-taught,Bootcamp,Community support
+Student,18,PHP,University,Bootcamp,Project interest
+Professional,21,Ruby,University,Self-study,Job opportunities
+Professional,35,C/C++,University,University,Job opportunities
+Professional,27,Python,High School,Online Course,Project interest
+Student,20,TypeScript,Technical,Bootcamp,Community support
+Professional,34,JavaScript,Self-taught,Online Course,Project interest
+Professional,27,Ruby,High School,School,Ease of learning
+Professional,28,PHP,University,Online Course,Job opportunities
+Student,39,Python,Bootcamp,School,Project interest
+Student,24,C#,Bootcamp,Online Course,Community support
+Professional,22,TypeScript,Technical,University,Project interest
+Student,44,Ruby,High School,Bootcamp,Community support
+Student,33,C#,University,Online Course,Ease of learning
+Professional,32,Java,High School,Online Course,Ease of learning
+Student,41,Ruby,High School,Bootcamp,Community support
+Professional,41,Python,Self-taught,University,Job opportunities
+Professional,28,Ruby,Self-taught,Self-study,Project interest
+Student,20,PHP,High School,Self-study,Project interest
+Professional,20,Python,Technical,Self-study,Job opportunities
+Student,32,Python,University,Online Course,Ease of learning
+Professional,45,Java,University,School,Community support
+Student,24,Java,Self-taught,Bootcamp,Ease of learning
+Professional,35,TypeScript,Self-taught,Online Course,Ease of learning
+Student,37,PHP,Self-taught,University,Job opportunities
+Student,17,C#,Technical,School,Project interest
+Student,31,C#,University,Self-study,Ease of learning
+Professional,25,Ruby,High School,University,Ease of learning
+Professional,29,Ruby,Bootcamp,Online Course,Community support
+Student,26,PHP,University,Self-study,Ease of learning
+Professional,32,TypeScript,University,Online Course,Project interest
+Student,24,Ruby,Technical,Online Course,Job opportunities
+Student,25,C/C++,Self-taught,Self-study,Ease of learning
+Student,42,PHP,Self-taught,Bootcamp,Ease of learning
+Student,31,Ruby,Bootcamp,Bootcamp,Project interest
+Student,18,C/C++,Self-taught,Self-study,Ease of learning
+Student,34,PHP,High School,University,Community support
+Professional,35,Ruby,University,School,Job opportunities
+Student,29,Python,University,Bootcamp,Project interest
+Professional,17,C/C++,High School,School,Ease of learning
+Professional,33,C#,High School,Self-study,Project interest
+Professional,42,TypeScript,Technical,University,Project interest
+Professional,41,PHP,Self-taught,Bootcamp,Ease of learning
+Student,35,C/C++,Self-taught,University,Job opportunities
+Student,20,PHP,Bootcamp,School,Project interest
+Student,35,Python,University,School,Community support
+Student,28,C#,Self-taught,Bootcamp,Project interest
+Professional,31,JavaScript,University,Bootcamp,Job opportunities
+Professional,34,C#,High School,School,Project interest
+Professional,36,Java,High School,School,Project interest
+Student,32,C/C++,Technical,Online Course,Job opportunities
+Student,22,JavaScript,Bootcamp,Bootcamp,Project interest
+Student,29,Java,Bootcamp,School,Project interest
+Student,38,Python,Self-taught,Online Course,Community support
+Professional,32,C/C++,University,Online Course,Project interest
+Professional,33,PHP,University,School,Project interest
+Student,23,C#,Self-taught,Bootcamp,Ease of learning
+Professional,40,C#,Technical,Self-study,Community support
+Professional,27,C#,University,University,Project interest
+Professional,42,PHP,Technical,Bootcamp,Job opportunities
+Professional,38,TypeScript,University,Self-study,Community support
+Professional,22,Java,Self-taught,Bootcamp,Community support
+Student,19,Java,Technical,University,Ease of learning
+Student,17,TypeScript,Bootcamp,Bootcamp,Project interest
+Student,37,Python,High School,School,Ease of learning
+Professional,36,Ruby,Bootcamp,Online Course,Community support
+Professional,25,JavaScript,High School,School,Ease of learning
+Student,45,Python,Bootcamp,Online Course,Job opportunities
+Professional,41,Ruby,Technical,Bootcamp,Job opportunities
+Student,25,TypeScript,University,Bootcamp,Project interest
+Professional,44,Python,Self-taught,Self-study,Community support
+Student,41,TypeScript,University,Online Course,Project interest
+Professional,38,Python,High School,Bootcamp,Community support
+Student,21,C/C++,Bootcamp,School,Community support
+Student,28,TypeScript,Technical,Online Course,Project interest
+Professional,45,Java,High School,Bootcamp,Project interest
+Student,30,C#,University,Bootcamp,Job opportunities
+Professional,36,PHP,Technical,University,Job opportunities
+Professional,25,Python,Bootcamp,School,Community support
+Student,36,C#,University,School,Ease of learning
+Student,20,Ruby,Technical,Self-study,Community support
+Professional,38,Ruby,Self-taught,Online Course,Ease of learning
+Student,32,Ruby,Self-taught,Bootcamp,Job opportunities
+Student,17,Java,Self-taught,School,Ease of learning
+Student,26,Ruby,High School,Online Course,Project interest
+Student,44,Ruby,High School,Self-study,Ease of learning
+Professional,30,JavaScript,Self-taught,Self-study,Community support
+Student,28,C#,High School,Online Course,Job opportunities
+Student,29,PHP,High School,School,Job opportunities
+Student,45,Ruby,High School,Bootcamp,Project interest
+Student,40,Python,Bootcamp,Bootcamp,Project interest
+Professional,43,C/C++,Bootcamp,University,Ease of learning
+Professional,19,Python,Self-taught,Self-study,Ease of learning
+Student,42,JavaScript,High School,Bootcamp,Project interest
+Professional,33,C/C++,Technical,Online Course,Project interest
+Professional,20,C#,Technical,University,Job opportunities
+Professional,35,JavaScript,Technical,Online Course,Job opportunities
+Student,35,JavaScript,Bootcamp,School,Job opportunities
+Student,39,JavaScript,Bootcamp,Self-study,Ease of learning
+Student,40,JavaScript,Technical,School,Community support
+Student,42,PHP,Self-taught,School,Community support
+Student,25,Python,Self-taught,Online Course,Project interest
+Professional,24,JavaScript,Self-taught,School,Ease of learning
+Professional,33,Ruby,High School,Bootcamp,Project interest
+Professional,38,C/C++,Bootcamp,Online Course,Community support
+Professional,21,Ruby,Technical,Online Course,Community support
+Student,41,Ruby,High School,School,Project interest
+Professional,33,Python,Bootcamp,Online Course,Community support
+Student,26,TypeScript,Bootcamp,Bootcamp,Job opportunities
+Student,17,C#,Bootcamp,School,Job opportunities
+Student,22,Java,Bootcamp,Online Course,Community support
+Professional,45,JavaScript,Technical,Online Course,Job opportunities
+Professional,45,Java,Self-taught,Online Course,Project interest
+Student,33,PHP,University,Self-study,Project interest
+Professional,25,C#,University,School,Project interest
+Professional,19,Ruby,University,Online Course,Community support
+Professional,29,JavaScript,Self-taught,Online Course,Ease of learning
+Student,24,C/C++,University,Online Course,Ease of learning
+Professional,23,C/C++,Self-taught,Online Course,Project interest
+Professional,24,Ruby,Bootcamp,Self-study,Ease of learning
+Professional,21,Python,Self-taught,Self-study,Ease of learning
+Student,32,JavaScript,High School,University,Job opportunities
+Professional,20,Java,High School,Online Course,Job opportunities
+Student,32,Ruby,University,University,Project interest
+Professional,16,JavaScript,Self-taught,School,Project interest
+Student,16,C#,Self-taught,Bootcamp,Job opportunities
+Professional,41,Python,High School,University,Ease of learning
+Student,22,C#,University,Bootcamp,Project interest
+Student,27,C/C++,Bootcamp,School,Ease of learning
+Student,25,TypeScript,High School,University,Project interest
+Professional,28,Ruby,High School,University,Ease of learning
+Student,31,C/C++,University,School,Job opportunities
+Student,23,Java,Self-taught,Self-study,Community support
+Student,45,TypeScript,University,School,Job opportunities
+Student,45,PHP,High School,Online Course,Ease of learning
+Professional,45,TypeScript,University,Online Course,Ease of learning
+Professional,37,PHP,Bootcamp,Online Course,Job opportunities
+Professional,17,TypeScript,Bootcamp,Online Course,Job opportunities
+Professional,35,C/C++,University,University,Community support
+Professional,31,Java,University,School,Project interest
+Professional,21,C/C++,High School,School,Community support
+Student,38,TypeScript,High School,Bootcamp,Ease of learning
+Professional,38,Python,Bootcamp,Bootcamp,Community support
+Student,18,JavaScript,University,Self-study,Community support
+Professional,19,Python,High School,Online Course,Project interest
+Professional,33,C/C++,High School,University,Job opportunities
+Professional,33,TypeScript,Self-taught,School,Community support
+Professional,16,C#,Bootcamp,Self-study,Job opportunities
+Student,34,Python,Bootcamp,Online Course,Ease of learning
+Professional,25,C#,Bootcamp,Online Course,Job opportunities
+Student,29,C#,Bootcamp,Bootcamp,Project interest
+Student,27,C#,Technical,Self-study,Ease of learning
+Professional,19,Python,University,University,Project interest
+Professional,42,C/C++,University,Self-study,Community support
+Professional,42,Python,University,Bootcamp,Ease of learning
+Professional,26,Python,Bootcamp,Bootcamp,Community support
+Professional,34,Java,University,Self-study,Community support
+Professional,27,TypeScript,Self-taught,Online Course,Ease of learning
+Student,39,Ruby,Technical,Self-study,Community support
+Student,42,C/C++,Bootcamp,Online Course,Community support
+Student,24,Python,Bootcamp,Self-study,Job opportunities
+Professional,35,Ruby,Self-taught,Self-study,Project interest
+Student,41,PHP,Self-taught,School,Job opportunities
+Student,40,Java,University,Online Course,Job opportunities
+Professional,40,PHP,Bootcamp,University,Job opportunities
+Student,24,Java,Self-taught,School,Ease of learning
+Professional,27,C/C++,Bootcamp,School,Ease of learning
+Professional,16,Ruby,High School,Bootcamp,Project interest
+Student,19,Python,University,Bootcamp,Community support
+Professional,41,Java,Self-taught,Self-study,Community support
+Professional,19,Ruby,Bootcamp,Bootcamp,Job opportunities
+Professional,17,TypeScript,High School,Bootcamp,Job opportunities
+Student,45,Java,Self-taught,Online Course,Ease of learning
+Professional,33,C/C++,Bootcamp,Online Course,Project interest
+Student,21,C/C++,Bootcamp,University,Ease of learning
+Professional,34,C/C++,Bootcamp,University,Ease of learning
+Student,24,TypeScript,Self-taught,University,Ease of learning
+Professional,26,Java,Bootcamp,University,Community support
+Professional,32,PHP,Self-taught,Self-study,Project interest
+Student,27,PHP,Bootcamp,School,Ease of learning
+Professional,45,TypeScript,Technical,Bootcamp,Job opportunities
+Student,25,TypeScript,Technical,Bootcamp,Ease of learning
+Professional,29,Python,Self-taught,Self-study,Project interest
+Student,31,Python,Self-taught,Online Course,Project interest
+Professional,20,Python,University,Self-study,Job opportunities
+Professional,16,Ruby,Technical,Online Course,Project interest
+Professional,29,Ruby,Bootcamp,Self-study,Project interest
+Student,18,JavaScript,Technical,Bootcamp,Job opportunities
+Professional,23,C#,Technical,Self-study,Project interest
+Student,34,TypeScript,University,School,Community support
+Student,40,Ruby,Self-taught,Online Course,Project interest
+Student,39,Java,University,University,Project interest
+Professional,27,TypeScript,Bootcamp,University,Ease of learning
+Student,41,PHP,Self-taught,Self-study,Ease of learning
+Student,41,Java,Technical,University,Community support
+Professional,35,Python,University,Bootcamp,Community support
+Professional,43,TypeScript,Technical,Self-study,Job opportunities
+Professional,43,Python,Technical,Online Course,Ease of learning
+Professional,42,Java,Bootcamp,Self-study,Ease of learning
+Professional,36,C/C++,Bootcamp,Self-study,Job opportunities
+Student,28,C#,University,Self-study,Project interest
+Professional,34,JavaScript,High School,Self-study,Community support
+Student,41,C/C++,Technical,Self-study,Ease of learning
+Professional,24,PHP,University,Bootcamp,Ease of learning
+Professional,41,PHP,High School,University,Job opportunities
+Professional,16,TypeScript,Technical,Self-study,Project interest
+Student,29,Java,Technical,Bootcamp,Ease of learning
+Professional,18,PHP,University,University,Community support
+Student,17,C/C++,University,Online Course,Project interest
+Student,38,TypeScript,High School,Online Course,Project interest
+Student,20,Java,Self-taught,Self-study,Job opportunities
+Student,38,PHP,High School,Self-study,Ease of learning
+Professional,18,Java,Bootcamp,University,Job opportunities
+Student,26,PHP,University,Online Course,Project interest
+Student,36,Python,High School,School,Job opportunities
+Student,30,PHP,Technical,Online Course,Project interest
+Professional,43,Java,High School,University,Ease of learning
+Student,34,C/C++,University,Self-study,Community support
+Student,23,C#,High School,Online Course,Community support
+Student,43,C#,Technical,School,Ease of learning
+Professional,25,JavaScript,Technical,Self-study,Project interest
