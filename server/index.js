@@ -45,16 +45,18 @@ app.use(cors({
 }));
 app.options("*", cors());
 
-const routes = [
- { path: '/cursos', file: 'server/data/cursos_programas_100.csv', separator: ';' },
- { path: '/demandaLenguajes', file: 'server/data/demanda_laboral_lenguajes.csv', separator: ',' },
- { path: '/demandaLenguajesExtranjero', file: 'server/data/demanda_laboral_extranjero.csv', separator: ';' },
- { path: '/preferenciaLenguajes', file: 'server/data/preferencias_lenguajes.csv', separator: ',' },
- { path: '/preferenciaLenguajesExtranjero', file: 'server/data/preferencias_lenguajes_extranjero.csv', separator: ',' }
-];
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+
+const routes = [
+ { path: '/cursos', file: path.join(__dirname, 'data', 'cursos_programas_100.csv'), separator: ';' },
+ { path: '/demandaLenguajes', file: path.join(__dirname, 'data', 'demanda_laboral_lenguajes.csv'), separator: ',' },
+ { path: '/demandaLenguajesExtranjero', file: path.join(__dirname, 'data', 'demanda_laboral_extranjero.csv'), separator: ';' },
+ { path: '/preferenciaLenguajes', file: path.join(__dirname, 'data', 'preferencias_lenguajes.csv'), separator: ',' },
+ { path: '/preferenciaLenguajesExtranjero', file: path.join(__dirname, 'data', 'preferencias_lenguajes_extranjero.csv'), separator: ',' }
+];
+
 // ruta put mongodb
 app.put('/usuario', async (req, res) => {
  const db = client.db('mibasedatos')
