@@ -33,7 +33,15 @@ dotenv.config();
 
 
 const app = express();
-app.use(cors('http://localhost:5173', 'https://lucent-piroshki-c15011.netlify.app'), express.json());
+app.use(express.json());
+app.use(cors({
+ origin: [
+  "http://localhost:5173",
+  "https://lucent-piroshki-c15011.netlify.app"
+ ],
+ methods: ["GET", "POST", "PUT", "DELETE"],
+ credentials: true
+}));
 
 
 const routes = [
