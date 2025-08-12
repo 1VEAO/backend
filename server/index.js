@@ -30,7 +30,7 @@ run().catch(console.error);
 
 dotenv.config();
 
-
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.use(express.json());
@@ -179,6 +179,6 @@ routes.forEach(route => {
 
 
 
-app.listen(process.env.PORT, () => {
- console.log(`Servidor escuchando en puerto ${process.env.PORT}`);
+app.listen(PORT, () => {
+ console.log(`Servidor escuchando en puerto ${PORT}`);
 });
