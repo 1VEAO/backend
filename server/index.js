@@ -2,20 +2,18 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import { readCSV } from './utils/readCSV.js';
-import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import fs from 'fs';
-import { MongoClient } from 'mongodb'
+import { MongoClient } from 'mongodb';
 import 'dotenv/config';
 
-// cors('http://localhost:5173/', 'https://lucent-piroshki-c15011.netlify.app/');
+dotenv.config();
 
 const mongoUrl = process.env.DB_DIRECT;
 const client = new MongoClient(mongoUrl, {
  tls: true,
 });
-// conection th db
 
 const run = async () => {
  try {
@@ -24,25 +22,34 @@ const run = async () => {
  } catch (err) {
   console.error('Error conectando a la base de datos:', err);
  }
-}
+};
 
 run().catch(console.error);
 
-dotenv.config();
-
-
-
 const app = express();
 app.use(express.json());
-app.use(cors({
- origin: [
-  "http://localhost:5173",
-  "https://lucent-piroshki-c15011.netlify.app"
- ],
- methods: ["GET", "POST", "PUT", "DELETE"],
- credentials: true
-}));
 
+// ✅ Middleware CORS personalizado
+const allowedOrigins = [
+ "http://localhost:5173",
+ "https://lucent-piroshki-c15011.netlify.app"
+];
+
+app.use((req, res, next) => {
+ const origin = req.headers.origin;
+ if (allowedOrigins.includes(origin)) {
+  res.setHeader("Access-Control-Allow-Origin", origin);
+ }
+ res.setHeader("Access-Control-Allow-Credentials", "true");
+ res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE");
+ res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+ next();
+});
+
+// ✅ Manejo de preflight (OPTIONS)
+app.options("*", (req, res) => {
+ res.sendStatus(200);
+});
 
 const routes = [
  { path: '/cursos', file: 'server/data/cursos_programas_100.csv', separator: ';' },
@@ -54,10 +61,11 @@ const routes = [
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-// ruta put mongodb
+
+// ✅ Ruta MongoDB
 app.put('/usuario', async (req, res) => {
- const db = client.db('mibasedatos')
- const { nombre, apellido, pais, edad, email } = req.body
+ const db = client.db('mibasedatos');
+ const { nombre, apellido, pais, edad, email } = req.body;
  try {
   const result = await db.collection('usuarios').insertOne({
    nombre,
@@ -65,23 +73,19 @@ app.put('/usuario', async (req, res) => {
    pais,
    edad,
    email
-  })
-  res.status(200).json({ message: 'Usuario agregado', result })
+  });
+  res.status(200).json({ message: 'Usuario agregado', result });
  } catch (err) {
-  console.error('Error agregando usuario:', err)
-  res.status(500).json({ error: 'Error agregando usuario' })
+  console.error('Error agregando usuario:', err);
+  res.status(500).json({ error: 'Error agregando usuario' });
  }
-})
+});
 
-
-
-// === RUTA PARA EL JSON ===
+// ✅ Ruta JSON
 app.get('/', (req, res) => {
  try {
   const lenguajesPath = path.join(__dirname, 'data', 'lenguajes.json');
-  const lenguajes = JSON.parse(
-   fs.readFileSync(lenguajesPath, 'utf8')
-  );
+  const lenguajes = JSON.parse(fs.readFileSync(lenguajesPath, 'utf8'));
   res.json(lenguajes);
  } catch (err) {
   console.error('Error leyendo lenguajes.json:', err);
@@ -89,8 +93,8 @@ app.get('/', (req, res) => {
  }
 });
 
+// ✅ Rutas CSV
 routes.forEach(route => {
- // Ruta para todos los datos
  app.get(route.path, async (req, res) => {
   try {
    const data = await readCSV(route.file, route.separator);
@@ -101,16 +105,13 @@ routes.forEach(route => {
   }
  });
 
- // Filtrar por lenguaje (con prefijo 'lenguaje')
  app.get(`${route.path}/lenguaje/:lenguaje`, async (req, res) => {
   try {
    const lenguaje = req.params.lenguaje.toLowerCase();
    const data = await readCSV(route.file, route.separator);
-
    const filtrados = data.filter(item =>
     item.Language && item.Language.toLowerCase() === lenguaje
    );
-
    res.json(filtrados);
   } catch (err) {
    console.error(`Error leyendo CSV (${route.file}):`, err);
@@ -118,16 +119,13 @@ routes.forEach(route => {
   }
  });
 
- // Filtrar por institución
  app.get(`${route.path}/institucion/:institucion`, async (req, res) => {
   try {
    const institucion = req.params.institucion.toLowerCase();
    const data = await readCSV(route.file, route.separator);
-
    const filtrados = data.filter(item =>
     item.Institution && item.Institution.toLowerCase() === institucion
    );
-
    res.json(filtrados);
   } catch (err) {
    console.error(`Error leyendo CSV (${route.file}):`, err);
@@ -135,49 +133,38 @@ routes.forEach(route => {
   }
  });
 
- // Filtrar por salario mínimo (Salary_USD >= valor)
  app.get(`${route.path}/salary/:minSalary`, async (req, res) => {
   try {
    const minSalary = Number(req.params.minSalary);
    if (isNaN(minSalary)) {
     return res.status(400).send('El salario mínimo debe ser un número');
    }
-
    const data = await readCSV(route.file, route.separator);
-
    const filtrados = data.filter(item => {
     const salary = Number(item.Salary_USD);
     return !isNaN(salary) && salary >= minSalary;
    });
-
    res.json(filtrados);
   } catch (err) {
    console.error(`Error leyendo CSV (${route.file}):`, err);
    res.status(500).send('Error leyendo el archivo CSV');
   }
  });
- // filtrar por experiencia
+
  app.get(`${route.path}/experiencia/:nivel`, async (req, res) => {
   try {
    const nivel = req.params.nivel.toLowerCase();
    const data = await readCSV(route.file, route.separator);
-
    const filtrados = data.filter(item =>
     item.Experience_Level && item.Experience_Level.toLowerCase().includes(nivel)
    );
-
    res.json(filtrados);
   } catch (err) {
    console.error(`Error leyendo CSV (${route.file}):`, err);
    res.status(500).send('Error leyendo el archivo CSV');
   }
  });
-
-
 });
-
-
-
 
 app.listen(process.env.PORT, () => {
  console.log(`Servidor escuchando en puerto ${process.env.PORT}`);
