@@ -76,6 +76,23 @@ app.put('/usuario', async (req, res) => {
  }
 })
 
+app.put('/test', async (req, res) => {
+ const db = client.db('mibasedatos');
+ const { respuestas } = req.body;
+
+ if (!respuestas) {
+  return res.status(400).json({ error: 'Faltan respuestas' });
+ }
+
+ try {
+  const result = await db.collection('test').insertOne(respuestas);
+  res.status(200).json({ message: 'Test agregado correctamente', result });
+ } catch (err) {
+  console.error('Error agregando test:', err);
+  res.status(500).json({ error: 'Error agregando test' });
+ }
+});
+
 
 
 // === RUTA PARA EL JSON ===
